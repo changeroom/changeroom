@@ -26,6 +26,7 @@
 
 .lnr-home:before {
 	content: "\e800";
+	color: #35CE77;
 }
 .lnr-apartment:before {
 	content: "\e801";
@@ -98,6 +99,8 @@
 }
 .lnr-envelope:before {
 	content: "\e818";
+	color: #35CE77;
+
 }
 .lnr-paperclip:before {
 	content: "\e819";
@@ -159,6 +162,9 @@
 .lnr-shirt:before {
 	content: "\e82c";
 }
+.lnr-industry:before {
+	content:"\f275"
+}
 .lnr-store:before {
 	content: "\e82d";
 }
@@ -170,9 +176,12 @@
 }
 .lnr-phone-handset:before {
 	content: "\e830";
+	color: #35CE77;
+
 }
 .lnr-phone:before {
 	content: "\e831";
+	
 }
 .lnr-pushpin:before {
 	content: "\e832";
