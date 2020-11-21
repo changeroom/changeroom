@@ -464,9 +464,9 @@ button:focus {
 
 .home_banner_area {
     z-index: 1;
-    background-image: -moz-linear-gradient(270deg, #73d79c 40%, rgb(232, 245, 220) 100%);
-    background-image: -webkit-linear-gradient(270deg, #73d79c 30%, rgb(235, 245, 220) 100%);
-    background-image: -ms-linear-gradient(270deg,  #73d79c 30%, rgb(235, 245, 220) 100%);
+    background-image: -moz-linear-gradient(270deg, #73d79c 50%, rgb(232, 245, 220) 100%);
+    background-image: -webkit-linear-gradient(270deg, #73d79c 50%, rgb(229, 245, 220) 100%);
+    background-image: -ms-linear-gradient(270deg,  #73d79c 50%, rgb(235, 245, 220) 100%);
 }
 
 .home_banner_area h2 {
@@ -4523,16 +4523,16 @@ mark.age{
     opacity: 0.5;
   }
   #one{
-    position: relative;
+    /* position: relative; */
     top: 10px; 
   }
   #two{
-    position: relative;
+    /* position: relative; */
     top: -15px; 
   }
 
   #four{
-    position: relative;
+    /* position: relative; */
     top: 15px; 
   }
   
@@ -4542,6 +4542,10 @@ mark.age{
   
   #partner #partner-scroller .owl-pagination {
     display: none;
+  }
+  #partner-scroller{
+      display: flex;
+      align-items: center;
   }
 
   @media only screen AND (max-width: 736px) { 
